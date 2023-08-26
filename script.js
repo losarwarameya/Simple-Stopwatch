@@ -55,7 +55,7 @@ function stopwatch(){
 play.addEventListener("click", ()=>{
 
     if (play.classList.contains("fa-play")) {
-        intervalId=setInterval(stopwatch,1);
+        intervalId=setInterval(stopwatch,1000);
     }else{
         clearInterval(intervalId);
     }
